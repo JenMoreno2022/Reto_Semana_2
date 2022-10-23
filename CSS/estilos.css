@@ -3,18 +3,22 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(195, 224, 238);
     color: black;
-    
-}
+
+    }
+
 
 h1{
     text-align: center;
     text-decoration: none;
     color:rgb(5, 90, 124);
-    border:1px solid rgb(1, 64, 80); background-color: rgb(2, 59, 73);
+    border:1px solid rgb(2, 94, 117); background-color: rgb(2, 59, 73);
     border-radius: 4px;
     height: 300%;
     color: white;
     padding: 10px;
+    display: block;
+    width: 1300px;
+
 }
 
 
@@ -29,6 +33,14 @@ ul{
     overflow: auto;
     border-radius: 4px;           
 }
+
+
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+
 
 
 li {
@@ -60,12 +72,21 @@ a:hover{
 
 
 
-
 .subtitulo{
     text-align: justify;
     font: 0.9em/1.2 Arial,"Times New Roman", "Sans-seif";
     
 }
+
+
+
+.pueblos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+
 
 .compilado > header, footer{
     border-radius: 5px;
@@ -74,6 +95,8 @@ a:hover{
 
 
 }
+
+
 
 .compilado{
     display: grid;
@@ -85,14 +108,19 @@ a:hover{
     grid-gap: 10px;
 }
 
+
+
 header{
     grid-area: header;
 }
 
 
+
 article{
     grid-area: sidebar;
+    text-align: center;
 }
+
 
 
 aside{
@@ -104,6 +132,7 @@ aside{
 
 footer{
     grid-area: footer;
+    color: gray;
     
 }
 
@@ -111,4 +140,67 @@ footer{
 img{
     float: center;
     border: 5px;
+}
+
+
+
+.principal{
+    float: center;
+    
+}
+
+
+
+table{
+    width:900px;
+    height: 100px;
+    margin: 10px;
+    text-align: justify;
+    display: block;
+    text-align: center;     
+}
+
+
+.cabecera{
+    
+    vertical-align: top;
+    font-size: 18px;
+    width: 22.7em;
+    line-height: 1.4em;
+    padding:15px;
+    margin-top: 15px;
+    background-color: rgb(229, 240, 237);
+    border: 1px soild #B4BBC8;
+       
+    }
+
+
+.summary{
+    
+    border: 1px soild #B4BBC8;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+        
+}
+
+
+
+th{
+    background-color: rgb(236, 236, 236);
+    font-size: 15px;
+    padding-bottom: 15px; 
+   border: 1px soild #B4BBC8;
+   color:rgb(2, 59, 73);
+   
+}
+
+
+
+td{
+    background-color: white;
+    font-size: 13px;
+    padding-bottom: 20px;
+    border: 1px soild #B4BBC8;
+        
 }
