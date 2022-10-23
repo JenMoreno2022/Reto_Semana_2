@@ -1,0 +1,114 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(195, 224, 238);
+    color: black;
+    
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(5, 90, 124);
+    border:1px solid rgb(1, 64, 80); background-color: rgb(2, 59, 73);
+    border-radius: 4px;
+    height: 300%;
+    color: white;
+    padding: 10px;
+}
+
+
+
+ul{
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 75, 102);
+    line-height: 60px;
+    overflow: auto;
+    border-radius: 4px;           
+}
+
+
+li {
+   /* outline: 1px solid red;*/
+    width: 100px;
+    /*display: inline-block;*/
+    text-align: center;
+    float: left;
+    
+}
+
+
+a{
+    /*outline: 1px solid green;*/
+    text-decoration: none;
+    display: block;
+    color: white;
+    border-radius: 2px;
+    width: auto;
+    
+}
+
+
+
+a:hover{
+    background-color: rgba(12, 162, 182, 0.829);
+    color: black;
+}
+
+
+
+
+.subtitulo{
+    text-align: justify;
+    font: 0.9em/1.2 Arial,"Times New Roman", "Sans-seif";
+    
+}
+
+.compilado > header, footer{
+    border-radius: 5px;
+    border: 2px orange;
+    padding: 5px;
+
+
+}
+
+.compilado{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-gap: 10px;
+}
+
+header{
+    grid-area: header;
+}
+
+
+article{
+    grid-area: sidebar;
+}
+
+
+aside{
+    grid-area:content;
+    text-align: center;
+}
+
+
+
+footer{
+    grid-area: footer;
+    
+}
+
+
+img{
+    float: center;
+    border: 5px;
+}
